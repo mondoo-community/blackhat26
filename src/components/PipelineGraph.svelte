@@ -3,14 +3,14 @@
 
   let { highlight = -1 } = $props<{ highlight?: number }>()
 
-  const steps = ['Discover', 'Prioritize', 'Plan', 'Fix', 'Report']
+  const steps = ['Analyze', 'Plan', 'Ship']
   const PURPLE = '#a855f7'
   const WHITE = '#2a2a3a'
   const LINE_COLOR = '#2a2a3a'
 
   const isStatic = $derived(highlight >= 0)
 
-  const highlightRange = [1, 2, 3]
+  const highlightRange = [0, 1, 2]
 
   let visible: boolean[] = $state(Array(steps.length).fill(false))
   let lines: boolean[] = $state(Array(steps.length - 1).fill(false))

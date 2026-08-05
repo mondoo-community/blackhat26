@@ -217,9 +217,9 @@ This talk is about getting out of the chair. We'll borrow a discipline engineers
   hours; this gives defenders the same speed, with the context and control to trust it."
 
 ### 2.7 — Close
-- **Visual:** Mondoo logo · **Booth 2411** · mondoo.com · LinkedIn /in/dominikrichter · *"Fix now. Fix forever."*
+- **Visual:** Mondoo logo · **Booth 5100 · AI Zone** · mondoo.com · LinkedIn /in/dominikrichter · *"Fix now. Fix forever."*
 - **Say:** "Two moves: see the whole AI surface, then put the fires out automatically. Come by booth
-  2411 — I'll build the AI-BOM of your own laptop, live, and you can decide how much of *your* room is
+  5100 in the AI Zone — I'll build the AI-BOM of your own laptop, live, and you can decide how much of *your* room is
   on fire. Thank you."
 
 ---

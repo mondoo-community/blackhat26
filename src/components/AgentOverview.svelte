@@ -4,16 +4,12 @@
 
   const columns = [
     {
-      title: 'Discover', color: '#ec4899',
-      agents: ['Git repos', 'CI/CD', 'Containers', 'VMs / Servers', 'Endpoints'],
-    },
-    {
-      title: 'Prioritize', color: '#a855f7',
-      agents: ['Business Impact', 'Attack Surface', 'Exploitability', 'Blast Radius', 'News & Intel', 'AI Evaluation', 'Orchestration'],
+      title: 'Analyze', color: '#a855f7',
+      agents: ['Business Impact', 'Attack Surface', 'Exploitability', 'Blast Radius', 'News & Intel', 'AI Evaluation'],
     },
     {
       title: 'Plan', color: '#3b82f6',
-      agents: ['Aggregation', 'Initiatives', 'Remediations', 'Rollbacks', 'Ops Considerations'],
+      agents: ['Initiatives', 'Remediations', 'Mitigations', 'Rollbacks', 'Ops Considerations', 'Risks'],
     },
     {
       title: 'Fix', color: '#06b6d4',
@@ -22,7 +18,7 @@
   ]
 
   let headerEls: HTMLDivElement[] = []
-  let agentEls: HTMLDivElement[][] = [[], [], [], []]
+  let agentEls: HTMLDivElement[][] = [[], [], []]
   let containerEl: HTMLDivElement
 
   onMount(() => {
@@ -90,7 +86,6 @@
 </script>
 
 <div bind:this={containerEl}>
-  <h2 class="text-4xl font-bold mb-10">Agent Overview</h2>
   <div class="overview-grid">
     {#each columns as col, ci}
       <div class="col">
